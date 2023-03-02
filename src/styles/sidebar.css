@@ -1,0 +1,126 @@
+.side-bar{
+    background-color: white;
+    min-width: 15vw;
+    /* border-radius: 1rem; */
+    border-radius: 1rem 0rem 0rem 1rem;
+
+}
+
+.side-bar-list{
+    padding: 0;
+
+}
+.side-bar-list li{
+    padding: 0.5rem 1rem;
+}
+.side-bar-list li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
+    min-height: 100%;
+    /* min-width: 100%; */
+}
+
+.logout-btn{
+    position: relative;
+     bottom: -30px;
+     left: 30px;
+    /* height: 100%; */
+    /* padding-left: 1rem; */
+    
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    /* margin: 10px; */
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 1rem;
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+ 
+
+.logo{
+/* background-color: #9733EE; */
+    background: url("https://i.pinimg.com/originals/e8/59/9d/e8599dbc522559d0f13dbd96c4be6348.png");
+    background-size: cover;
+    padding: 3rem 0rem;
+    width: 100%;
+    background-position-y: 30%;
+    /* position: relative; */
+    /* margin: auto; */
+    border-radius: 1rem 0rem 1rem 1rem;
+}
+.logo:hover{
+    animation: shake 1.65s alternate ease-out;
+}
+@keyframes shake { 
+    0%   {transform: translateX(0%);}
+    20%  {transform: translateX(-10px);}
+    40%  {transform: translateX(0%);}
+    60%  {transform: translateX(10px);}
+    80% {transform:  translateX(0%);}
+    100% {transform: scale(0.9) }
+
+}
+
+img{
+    width: 100%;
+    /* height: 100px; */
+}
+
+.banner{
+    width: 100%;
+    /* padding-bottom: 4rem; */
+
+}
+.banner:hover{
+    animation: popDiv 1s alternate ease-in-out;
+}
+
+@keyframes popDiv { 
+    0%   {transform: scale(1)  rotate(360deg);}
+    50%  {transform: scale(1.1) }
+    100% {transform: scale(1) ;}
+}
+
+
+
+.header-text{
+    padding: 2rem;
+    background: url("https://i.pinimg.com/originals/e1/ac/4b/e1ac4b3ad01180b05fb0d45b0ffbd420.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+    position: relative;
+    left: -40px;
+    border-radius: 3rem;
+}
+
+.bg-shade{
+    background-color: rgba(0, 0, 0, 0.599);
+    text-align: center;
+    border-radius: 1rem;
+    
+}

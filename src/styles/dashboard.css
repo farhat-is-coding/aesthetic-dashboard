@@ -1,0 +1,48 @@
+.dashboard-container{
+    max-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* margin: 5rem; */
+    padding: 5rem;
+    border-radius: 1rem;
+    /* overflow:hidden; */
+}
+
+
+
+.side-bar2{
+    min-width: 15vw;
+    border-radius: 0rem 1rem 1rem 0rem;
+    overflow: hidden;
+}
+
+.side-bar2-image{
+    width: 100%;
+  height: 100%;
+  background-color: white;
+  background: url("https://pbs.twimg.com/media/FB1NblfUcAYa8nx?format=jpg&name=large");
+  background-size: cover;
+    background-position-x:  75%;
+    border-radius: 0rem 1rem 1rem 0rem;
+
+}
+
+.side-bar2-image:hover{
+    scale: 1.1;
+    display: block;
+    transition: all .5s;
+}
+
+.side-bar2:hover .side-bar2-image:before,
+.side-bar2:focus .side-bar2-image:before {
+  display: block;
+}
+
+.side-bar2:hover .side-bar2-image, .side-bar2:focus .side-bar2-image {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}

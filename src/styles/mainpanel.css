@@ -1,0 +1,53 @@
+.main-panel-banner{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    /* From https://css.glass */
+    background: rgba(177, 200, 203, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(177, 200, 203, 0.3);
+}
+.main-panel-img{
+    width: 40%;
+    height: 40%;
+    position: relative;
+    top: -30px;
+    border-radius: 1rem;
+}
+.main-panel{
+    /* background: url("https://external-preview.redd.it/rin-itoshi-edit-by-me-v0-K0w6tlZTLJkoKLKaHiaZPYDaU3H5StFiMUbdVIeYTOc.png?format=pjpg&auto=webp&s=da88efb895fb8530cbec2fdce0d523b56411c9ba"); */
+    /* background: url("./itoshi2.webp"); */
+    background-size: cover;
+    width: 100%;
+    padding: 1rem;
+    /* background-size: cover; */
+}
+.main-panel{
+    background-color: #eaf0f3;
+    min-width: 50vw;
+    max-height: 100%;
+    overflow-y: scroll;
+    
+}
+
+img{
+    width: 100%;
+    /* height: 100px; */
+}
+
+
+div::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  /* div::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);      } */
+  
+  div::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(21, 151, 149);  /* creates padding around scroll thumb */
+  }
