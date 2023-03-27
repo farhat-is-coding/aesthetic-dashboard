@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -16,6 +17,7 @@ code {
 }
 
 .bg{
+  min-height: 100vh;
   background: #6441A5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffffff, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #cbcbcb, rgba(39, 237, 175, 0.616)) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

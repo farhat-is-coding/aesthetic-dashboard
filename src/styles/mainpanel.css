@@ -1,7 +1,23 @@
+.main-panel{
+    /* background: url("https://external-preview.redd.it/rin-itoshi-edit-by-me-v0-K0w6tlZTLJkoKLKaHiaZPYDaU3H5StFiMUbdVIeYTOc.png?format=pjpg&auto=webp&s=da88efb895fb8530cbec2fdce0d523b56411c9ba"); */
+    /* background: url("./itoshi2.webp"); */
+    background-size: cover;
+    width: 100%;
+    padding: 1rem;
+}
+.main-panel{
+    background-color: #eaf0f3;
+    min-width: 50vw;
+    max-height: 100%;
+    overflow-y: scroll;  
+    overflow-x: hidden; 
+}
 .main-panel-banner{
     padding: 1rem;
     margin: 1rem;
     display: flex;
+    margin: 1rem;
+    padding: 0rem 1rem;
     /* From https://css.glass */
     background: rgba(177, 200, 203, 0.2);
     border-radius: 16px;
@@ -11,43 +27,60 @@
     border: 1px solid rgba(177, 200, 203, 0.3);
 }
 .main-panel-img{
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
     position: relative;
     top: -30px;
     border-radius: 1rem;
 }
-.main-panel{
-    /* background: url("https://external-preview.redd.it/rin-itoshi-edit-by-me-v0-K0w6tlZTLJkoKLKaHiaZPYDaU3H5StFiMUbdVIeYTOc.png?format=pjpg&auto=webp&s=da88efb895fb8530cbec2fdce0d523b56411c9ba"); */
-    /* background: url("./itoshi2.webp"); */
-    background-size: cover;
-    width: 100%;
-    padding: 1rem;
-    /* background-size: cover; */
-}
-.main-panel{
-    background-color: #eaf0f3;
-    min-width: 50vw;
-    max-height: 100%;
-    overflow-y: scroll;
-    
-}
 
 img{
     width: 100%;
-    /* height: 100px; */
 }
-
 
 div::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
-  }
-  
-  /* div::-webkit-scrollbar-track {
-    background: rgb(255, 255, 255);      } */
-  
-  div::-webkit-scrollbar-thumb {
+}
+div::-webkit-scrollbar-thumb {
     background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid rgb(21, 151, 149);  /* creates padding around scroll thumb */
-  }
+}
+
+.feats-banner{
+    /* padding: 1rem 0rem; */
+    height: 100%;
+    background: url("https://external-preview.redd.it/rin-itoshi-edit-by-me-v0-K0w6tlZTLJkoKLKaHiaZPYDaU3H5StFiMUbdVIeYTOc.png?format=pjpg&auto=webp&s=da88efb895fb8530cbec2fdce0d523b56411c9ba");
+    background-size: cover;
+}
+
+.favorites-banner{
+    /* padding: 1rem 0rem; */
+    height: 100%;
+    background: url("https://api.duniagames.co.id/api/content/upload/file/6839830661669609299.jpg");
+    background-size: cover;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.child{
+    background:linear-gradient(69deg, rgb(202, 15, 202), rgb(238, 144, 144));
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.child img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:900px) {
+    .parent{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

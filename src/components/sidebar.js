@@ -5,7 +5,9 @@ import {
   faTrophy,
   faStar,
 } from "@fortawesome/free-solid-svg-icons"
-export default function Sidebar() {
+
+export default function Sidebar({sidebarItem, setSidebarItem}) {
+
   return (
     <div className="side-bar">
       <div className="column">
@@ -13,15 +15,21 @@ export default function Sidebar() {
           {" "}
           {/* <img src="https://i.pinimg.com/originals/e8/59/9d/e8599dbc522559d0f13dbd96c4be6348.png" alt="" /> */}
         </div>
-        <ul className="side-bar-list">
-          <li>
+        <ul className={`side-bar-list`}>
+          <li 
+            className={`${sidebarItem === "dashboard" ? "active" : null}`}
+            onClick= {()=>{setSidebarItem("dashboard")}}
+          >
             <FontAwesomeIcon icon={faHouseChimney} /> Dashboard
           </li>
-          <li>
-            {" "}
+          <li className={`${sidebarItem === "feats" ? "active" : null}`}
+          onClick= {()=>{setSidebarItem("feats")}}
+          >
             <FontAwesomeIcon icon={faTrophy} /> Feats
           </li>
-          <li>
+          <li className={`${sidebarItem === "favorites" ? "active" : null}`}
+          onClick= {()=>{setSidebarItem("favorites")}}
+          >
             <FontAwesomeIcon icon={faStar} /> Favorites
           </li>
         </ul>

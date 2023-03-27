@@ -124,3 +124,12 @@ img{
     border-radius: 1rem;
     
 }
+
+
+.active{
+    background: black;
+    color: white;
+    
+    border-radius: 1rem;
+    cursor: pointer;
+}
