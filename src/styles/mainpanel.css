@@ -50,13 +50,16 @@ div::-webkit-scrollbar-thumb {
 .feats-banner{
     /* padding: 1rem 0rem; */
     height: 100%;
+    background-color: lightgray;
     background: url("https://external-preview.redd.it/rin-itoshi-edit-by-me-v0-K0w6tlZTLJkoKLKaHiaZPYDaU3H5StFiMUbdVIeYTOc.png?format=pjpg&auto=webp&s=da88efb895fb8530cbec2fdce0d523b56411c9ba");
     background-size: cover;
+
 }
 
 .favorites-banner{
     /* padding: 1rem 0rem; */
     height: 100%;
+    background-color: lightgray;
     background: url("https://api.duniagames.co.id/api/content/upload/file/6839830661669609299.jpg");
     background-size: cover;
 }

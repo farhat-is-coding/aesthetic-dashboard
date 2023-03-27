@@ -1,12 +1,12 @@
 import "../styles/mainpanel.css"
 import { motion } from "framer-motion"
 const container = {
-  hidden: { rotate: 90 },
+  hidden: { scale: 0, top: 100 },
   show: {
-    rotate: 0,
+    scale: 1, top: 0,
     transition: {
       staggerChildren: 0.3,
-      delayChildren: 1,
+            // delayChildren: 1,
     },
   },
 }
@@ -59,7 +59,7 @@ function Row({ text, img }) {
 
 function Showcase() {
   return (
-    <div className="parent">
+    <motion.div className="parent" variants={itemA}>
       <div className="child">
         <img src="isagi1.png" alt="" />
       </div>
@@ -72,6 +72,6 @@ function Showcase() {
       <div className="child">
         <img src="rin.png" alt="" />
       </div>
-    </div>
+    </motion.div>
   )
 }
