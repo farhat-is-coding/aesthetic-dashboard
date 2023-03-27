@@ -29,10 +29,9 @@ export default function Mainpanel({ sidebarItem, setSidebarItem }) {
           </motion.div>
           <Row text={"Check Out my Goals. Goes Hard"} img={"itoshi2.webp"} />
           
-          <motion.div variants={container}>
-            <h1 className="">My Iconic Moments</h1>
-            <Showcase />
-          </motion.div>
+          <h1 className="">My Iconic Moments</h1>
+          <Showcase />
+
          
         </>
       )}
