@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aesthetic-dashboard/static/css/main.672751c4.css",
+    "main.js": "/aesthetic-dashboard/static/js/main.b4621f90.js",
+    "index.html": "/aesthetic-dashboard/index.html",
+    "main.672751c4.css.map": "/aesthetic-dashboard/static/css/main.672751c4.css.map",
+    "main.b4621f90.js.map": "/aesthetic-dashboard/static/js/main.b4621f90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.672751c4.css",
+    "static/js/main.b4621f90.js"
+  ]
+}
