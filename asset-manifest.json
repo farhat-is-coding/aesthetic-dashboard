@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/aesthetic-dashboard/static/css/main.672751c4.css",
-    "main.js": "/aesthetic-dashboard/static/js/main.8df64fbf.js",
+    "main.css": "/aesthetic-dashboard/static/css/main.f7ec44f0.css",
+    "main.js": "/aesthetic-dashboard/static/js/main.561d8c63.js",
     "index.html": "/aesthetic-dashboard/index.html",
-    "main.672751c4.css.map": "/aesthetic-dashboard/static/css/main.672751c4.css.map",
-    "main.8df64fbf.js.map": "/aesthetic-dashboard/static/js/main.8df64fbf.js.map"
+    "main.f7ec44f0.css.map": "/aesthetic-dashboard/static/css/main.f7ec44f0.css.map",
+    "main.561d8c63.js.map": "/aesthetic-dashboard/static/js/main.561d8c63.js.map"
   },
   "entrypoints": [
-    "static/css/main.672751c4.css",
-    "static/js/main.8df64fbf.js"
+    "static/css/main.f7ec44f0.css",
+    "static/js/main.561d8c63.js"
   ]
 }
